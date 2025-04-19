@@ -7,7 +7,7 @@ import {
   CardContent,
 } from "../../components/ui/card";
 import { Section } from "../../components/ui/section";
-import { RESUME_DATA } from "../../data/resume-data";
+import type { RESUME_DATA } from "../../data/resume-data";
 
 type ProjectTags = readonly string[];
 
@@ -123,12 +123,12 @@ interface ProjectsProps {
  */
 export function Projects({ projects }: ProjectsProps) {
   return (
-    <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-12">
+    <Section className="scroll-mb-16 print:space-y-4 print:pt-12">
       <h2 className="text-xl font-bold" id="side-projects">
-        Side projects
+        Projects
       </h2>
       <div
-        className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3"
+        className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2"
         role="feed"
         aria-labelledby="side-projects"
       >

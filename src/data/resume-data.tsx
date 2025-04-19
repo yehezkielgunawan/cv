@@ -9,232 +9,247 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+  name: "Yehezkiel Gunawan",
+  initials: "YG",
+  location: "Bogor, West Java, Indonesia",
+  locationLink: "https://maps.app.goo.gl/i5dgoGNxPuQdBh73A",
+  about: "Mainly work in React & Typescript Ecosystem as a web engineer.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
+      Web developer specializing in high-performance React applications and
+      scalable Node.js services, with hands-on experience in deployment
+      pipelines and infrastructure. Experienced in technical architecture
+      design, real-time collaboration systems, and remote/hybrid team
       leadership.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "/profile.jpg",
+  personalWebsiteUrl: "https://yehezgun.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "yehezkiel.gunawan28@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/yehezkielgunawan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yehezkiel-gunawan-595128138/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/yehezgun",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Multimedia Nusantara University",
+      degree: "Bachelor's Degree in Informatics",
+      start: "2016",
+      end: "2020",
+    },
+    {
+      school: "Binus University",
+      degree: "Master's Degree in Information System Management",
+      start: "2022",
+      end: "2024",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "OLX (Member of Astra)",
+      link: "https://olx.co.id",
+      badges: ["React", "Next.js", "Node.js", "Express.js"],
+      title: "Frontend Developer (PWA)",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Mainly involved in the Platform team, which is responsible for
+          building and maintaining the core platform of OLX.
           <ul className="list-inside list-disc">
+            <li>Improved the build time of its web app by 50%.</li>
+            <li>Increase the coverage of unit tests to 70%.</li>
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
+              Increased the traceability of the web app by integrating the web
+              app to Google Analytics and Datadog.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "Katalis.ai",
+      link: "https://katalis.ai",
+      badges: ["React", "Next.js", "Node.js", "Typescript"],
+      title: "Frontend Engineer (Founding Engineer)",
+      logo: ConsultlyLogo,
+      start: "Feb 2024",
+      end: "Aug 2024",
+      description: (
+        <>
+          Involved as one of the founding engineers in building a platform for
+          AI-powered for copywriting and content generation for ecommerce
+          businesses.
+          <ul className="list-inside list-disc">
+            <li>
+              Improved the e-commerce seller productivity by 25% through the AI
+              automation tool feature.
+            </li>
+            <li>
+              Indirectly helped the company to secure a $150,000 seed investment
+              round from Iterative.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Bobobox",
+      link: "https://bobobox.com",
+      badges: ["React", "Next.js", "Node.js", "Typescript"],
+      title: "Frontend Engineer",
+      logo: ConsultlyLogo,
+      start: "2022",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Involved as one of frontend engineer team member in building a
+          platform for order management system for Bobobox`s hotel chain.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Successfully revamped the newest Bobobox main web app which has
+              more than 10.000 weekly access.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Achieved 10% improvement in user retention rate through revamping
+              the user experience of the web app.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      company: "MacroAd",
+      link: "https://www.linkedin.com/company/macroad-surge/",
+      badges: ["Angular", "Ionic", "Javascript", "Node.js"],
+      title: "Frontend Engineer",
+      logo: ConsultlyLogo,
+      start: "2020",
       end: "2021",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Mainly involved in building KAI Access App for PT. KAI as the client.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Developed the first version of the KAI Access App made using Ionic
+              and Angular.
             </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
+            <li>Achieved 10 million downloads on Playstore.</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "JULO",
+      link: "https://julo.co.id",
+      badges: ["Robot Framework", "Python"],
+      title: "QA Engineer Intern",
+      logo: ConsultlyLogo,
+      start: "Jun 2019",
+      end: "Sept 2019",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          Mainly involved in building the automation testing framework using
+          Robot Framework.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Optimized the repetitive end-to-end testing process by 50% through
+              the automation testing development.
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>
+              Concurrently worked as a Support Engineer to find and forward the
+              bugs or issues to the developer.
+            </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next.js",
     "Node.js",
+    "Express.js",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Git",
+    "No SQL",
+    "BaaS",
+    "Tailwind CSS",
+    "Python",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "OLX Site",
+      techStack: ["React", "Express.js", "Node.js", "Javascript"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A web app for OLX Indonesia, a marketplace for buying and selling 2nd products, especially for automative products.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "olx.co.id",
+        href: "https://olx.co.id/",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Bobobox Web App",
+      techStack: ["Next.js", "Tailwind CSS", "Node.js", "Typescript"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "A web app for Bobobox, a hotel chain in Indonesia that provides a capsule hotel.",
+      logo: MonitoLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "bobobox.com",
+        href: "https://bobobox.com/",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Katalis.ai",
+      techStack: ["Next.js", "Chakra UI", "Node.js", "Typescript"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "A web app for Katalis.ai, a platform for AI-powered copywriting and content generation for ecommerce businesses.",
       logo: MonitoLogo,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "katalis.ai",
+        href: "https://katalis.ai/",
+      },
+    },
+    {
+      title: "KAI Access",
+      techStack: ["Ionic", "Angular", "Node.js", "Typescript"],
+      description:
+        "A mobile app for PT. KAI, a state-owned railway company in Indonesia to book train tickets by using mobile app.",
+      logo: MonitoLogo,
+      link: {
+        label: "kaiaccess.com",
+        href: "https://play.google.com/store/apps/details?id=com.kai.kaiticketing&hl=en_US&pli=1",
+      },
+    },
+    {
+      title: "Master's Thesis Research Paper",
+      techStack: ["Python", "Machine Learning", "Data Science"],
+      description:
+        "A research paper for my master's thesis about the Indonesian user feedback dataset of capsule hotel experiences and its risk classification using machine learning.",
+      logo: MonitoLogo,
+      link: {
+        label: "Research Paper",
+        href: "https://tunasbangsa.ac.id/pkm/index.php/kesatria/article/view/349/346",
       },
     },
   ],
